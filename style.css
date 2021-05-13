@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(180, 180, 180);
+    background-color: rgb(233, 233, 233);
 }
 
 #title, .subtitle, .post_title {
@@ -9,11 +9,27 @@ body {
 .post_title {
     font-size: 16px;
     font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
 }
 
 .post {
     background-color: white;
-    padding: 10px;
+    padding: 15px;
     border: 3px solid black;
-    margin: 10px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.post_content {
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.post_image {
+    margin-bottom: 25px;
+}
+
+.perfil_image {
+    border-radius: 50%;
 }
